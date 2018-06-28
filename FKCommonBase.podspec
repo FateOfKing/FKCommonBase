@@ -31,20 +31,18 @@ FKCommonBase包含一些基础库
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FKCommonBase/Classes/FKCommonBase.h'
-  s.subspec 'BarButtonItem+Util' do |ss|
-    ss.source_files = 'FKCommonBase/Classes/BarButtonItem+Util'
+  s.subspec 'BarButtonItem&UIButton' do |ss|
+ss.source_files = 'FKCommonBase/Classes/BarButtonItem+Util/*.{h,m}','FKCommonBase/Classes/UIButton+Util/*.{h,m}'
   end
-s.subspec 'UIButton+Util' do |ss|
-ss.source_files = 'FKCommonBase/Classes/UIButton+Util'
-end
+
 s.subspec 'NSObject+Tool' do |ss|
-ss.source_files = 'FKCommonBase/Classes/NSObject+Tool'
+ss.source_files = 'FKCommonBase/Classes/NSObject+Tool/*.{h,m}'
 end
-s.subspec 'UIColor+Hex' do |ss|
-ss.source_files = 'FKCommonBase/Classes/UIColor+Hex'
+s.subspec 'UIColorCategory' do |ss|
+ss.source_files = 'FKCommonBase/Classes/UIColorCategory/*.{h,m}'
 end
 s.subspec 'UIViewExt' do |ss|
-ss.source_files = 'FKCommonBase/Classes/UIViewExt'
+ss.source_files = 'FKCommonBase/Classes/UIViewExt/*.{h,m}'
 end
   # s.resource_bundles = {
   #   'FKCommonBase' => ['FKCommonBase/Assets/*.png']

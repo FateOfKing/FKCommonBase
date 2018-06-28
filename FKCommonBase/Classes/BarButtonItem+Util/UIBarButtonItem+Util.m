@@ -7,7 +7,6 @@
 //
 
 #import "UIBarButtonItem+Util.h"
-#import "UIButton+Util.h"
 #import <objc/runtime.h>
 int const BUTTON_HEIGHT = 30;
 @implementation UIBarButtonItem (Util)
