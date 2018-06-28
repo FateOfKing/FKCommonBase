@@ -1,0 +1,6 @@
+framework module FKCommonBase {
+  umbrella header "FKCommonBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

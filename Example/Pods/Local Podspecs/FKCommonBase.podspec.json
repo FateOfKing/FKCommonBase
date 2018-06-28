@@ -1,0 +1,22 @@
+{
+  "name": "FKCommonBase",
+  "version": "0.1.0",
+  "summary": "A short description of FKCommonBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/FateOfKing/FKCommonBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "FateOfKing": "574392788@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/FateOfKing/FKCommonBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FKCommonBase/Classes/**/*"
+}

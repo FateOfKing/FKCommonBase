@@ -1,0 +1,16 @@
+PODS:
+  - FKCommonBase (0.1.0)
+
+DEPENDENCIES:
+  - FKCommonBase (from `../`)
+
+EXTERNAL SOURCES:
+  FKCommonBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FKCommonBase: d040899cbc4b925757bf9dbb451f46e7032fc90d
+
+PODFILE CHECKSUM: b0f367f2aa5bf52d8f72a5db6ddc41b132f86b02
+
+COCOAPODS: 1.5.0
