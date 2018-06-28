@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FKCommonBase'
-  s.version          = '0.0.3'
+  s.version          = '0.1.1'
   s.summary          = 'FKCommonBase'
 
 # This description is used to generate tags and improve search results.
