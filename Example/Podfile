@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FKCommonBase_Example' do
+  pod 'FKCommonBase', :path => '../'
+
+  target 'FKCommonBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
