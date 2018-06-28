@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FKCommonBase'
-  s.version          = '0.1.0'
+  s.version          = '0.0.2'
   s.summary          = 'FKCommonBase'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,22 @@ FKCommonBase包含一些基础库
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FKCommonBase/Classes/**/*'
-  
+  s.source_files = 'FKCommonBase/Classes/FKCommonBase.h'
+  s.subspec 'BarButtonItem+Util' do |ss|
+    ss.source_files = 'FKCommonBase/Classes/BarButtonItem+Util'
+  end
+s.subspec 'UIButton+Util' do |ss|
+ss.source_files = 'FKCommonBase/Classes/UIButton+Util'
+end
+s.subspec 'NSObject+Tool' do |ss|
+ss.source_files = 'FKCommonBase/Classes/NSObject+Tool'
+end
+s.subspec 'UIColor+Hex' do |ss|
+ss.source_files = 'FKCommonBase/Classes/UIColor+Hex'
+end
+s.subspec 'UIViewExt' do |ss|
+ss.source_files = 'FKCommonBase/Classes/UIViewExt'
+end
   # s.resource_bundles = {
   #   'FKCommonBase' => ['FKCommonBase/Assets/*.png']
   # }
