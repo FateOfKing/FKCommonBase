@@ -43,6 +43,9 @@
     if ([[NSString stringWithFormat:@"%@",object] isEqualToString:@"(null)"]) {
         return YES;
     }
+    if ([NSString stringWithFormat:@"%@",object].length == 0) {
+        return YES;
+    }
     return NO;
 }
 
